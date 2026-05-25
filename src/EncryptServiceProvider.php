@@ -8,7 +8,7 @@
  * @link        https://git.saeedhurzuk.com/MrRobot/Laravel-Source-Encryption
  */
 
-namespace thedepart3d\LaravelSourceEncryption;
+namespace l132a\LaravelSourceEncryption;
 
 use Illuminate\Support\ServiceProvider;
 
