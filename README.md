@@ -23,13 +23,13 @@ The service provider will automatically get registered. Or you may manually add 
 ```php
 'providers' => [
     // ...
-    \thedepart3d\LaravelSourceEncryption\EncryptServiceProvider::class,
+    \l132a\LaravelSourceEncryption\EncryptServiceProvider::class,
 ];
 ```
 ### Step 4 (Optional)
 You can publish the config file with this following command:
 ```bash
-php artisan vendor:publish --provider="thedepart3d\LaravelSourceEncryption\EncryptServiceProvider" --tag=encryptionConfig
+php artisan vendor:publish --provider="l132a\LaravelSourceEncryption\EncryptServiceProvider" --tag=encryptionConfig
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ This command encrypts files and directories in `config/source-encryption.php` fi
 
 The default destination directory is `encrypted-source`. You can change it in `config/source-encryption.php` file.
 
-Also the default encryption key length is `16`. You can change it in `config/source-encryption.php` file. `6` is the recommended key length.
+Also the default encryption key length is `16`. You can change it in `config/source-encryption.php` file. `16` is the recommended key length.
 
 This command has these optional options:
 
