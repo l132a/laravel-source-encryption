@@ -1,5 +1,5 @@
 {
-  "name": "thedepart3d/laravel-source-encryption",
+  "name": "l132a/laravel-source-encryption",
   "keywords": [
     "laravel",
     "source",
@@ -11,7 +11,7 @@
   ],
   "type": "library",
   "require": {
-    "php": "^8.1",
+    "php": "^8.2",
     "illuminate/console": "^8|^9|^10",
     "illuminate/support": "^8|^9|^10",
     "ext-bolt": "*"
@@ -20,13 +20,13 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "The Depart3d",
-      "email": "thedepart3d@protonmail.com"
+      "name": "L132A",
+      "email": "su2yowidodo@gmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "thedepart3d\\LaravelSourceEncryption\\": "src"
+      "l132a\\LaravelSourceEncryption\\": "src"
     }
   },
   "config": {
@@ -36,7 +36,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "thedepart3d\\LaravelSourceEncryption\\EncryptServiceProvider"
+        "l132a\\LaravelSourceEncryption\\EncryptServiceProvider"
       ]
     }
   }
